@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.container {
+     background-color: rgb(242, 241, 239);
+     margin-top: 5vw;
+     margin-left: 5vw;
+     width: 90%;
+
+
+}
+
+.fondo {
+     background-color: black;
+     width: 100%;
+
+}
+
+
+
+
+header {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+}
+
+a:hover {
+     background-color: rgb(235, 224, 224);
+}
+
+span {
+     color: rgb(232, 99, 83);
+
+}
+
+nav>a {
+
+     margin-left: 15px;
+}
+
+button {
+
+     width: 100px;
+     height: 40px;
+     background-color: gainsboro;
+
+     cursor: pointer;
+}
+
+
+
+.hamburguesa {
+     color: black;
+     display: none;
+
+
+}
+
+@media(max-width: 500px) {
+
+
+     nav,
+     div {
+          visibility: hidden;
+
+
+
+     }
+
+     .hamburguesa {
+
+          color: black;
+          display: block;
+
+
+     }
+
+}
+
+.hero {
+
+
+     width: 36%;
+
+     margin-left: 13rem;
+
+     margin-top: 90px;
+
+
+
+
+}
+
+p {
+     font-family: Rubik;
+     font-size: 2.3rem;
+}
+
+.b {
+     background-color: black;
+     color: aliceblue;
+     width: 10rem;
+     align-self: flex-end;
+     cursor: pointer;
+
+
+
+}
+
+.w {
+     width: 10rem;
+     cursor: pointer;
+     background-color: gainsboro;
+}
+
+
+
+
+
+
+
+
+.imagen {
+
+
+     width: 30%;
+     margin-left: 800px;
+     margin-top: -25vw;
+
+
+
+}
+
+.barra {
+     background-color: black;
+     color: aliceblue;
+     padding: 20px;
+     text-align: center;
+     transform: skew(0, -4deg);
+
+
+}
