@@ -47,7 +47,7 @@ button {
 
      width: 100px;
      height: 40px;
-     background-color: gainsboro;
+     background-color: rgb(242, 241, 239);
 
      cursor: pointer;
 }
@@ -103,7 +103,7 @@ p {
 
 .b {
      background-color: black;
-     color: aliceblue;
+     color: rgb(242, 241, 239);
      width: 10rem;
      align-self: flex-end;
      cursor: pointer;
@@ -130,7 +130,7 @@ p {
 
      width: 30%;
      margin-left: 800px;
-     margin-top: -27vw;
+     margin-top: -25%;
 
 
 
@@ -142,6 +142,5 @@ p {
      padding: 20px;
      text-align: center;
      transform: skew(0, -4deg);
-
-
+     justify-content: space-around
 }
